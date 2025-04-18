@@ -6,7 +6,6 @@ import KeyDirections from '../components/KeyDirections';
 import Advantages from '../components/Advantages';
 import Features from '../components/Features';
 import ProductGallery from '../components/ProductGallery';
-import SpringVents from '../components/SpringVents';
 import ResearchDevelopment from '../components/ResearchDevelopment';
 import ProductionProcess from '../components/ProductionProcess';
 import QualityControl from '@/components/QualityControl';
