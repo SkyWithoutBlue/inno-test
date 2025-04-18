@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="bg-white w-full">
       <div className="w-full">
-        <div className="flex flex-col 2xl:flex-row gap-[10px] items-start max-w-screen-[1920px] justify-between">
+        <div className="flex flex-col 2xl:flex-row gap-[10px] items-start max-w-[1920px] mx-auto justify-between">
           {/* Левая колонка с изображением */}
           <div className="w-full 2xl:w-[1014px]">
             <div className="w-full h-[760px] relative">

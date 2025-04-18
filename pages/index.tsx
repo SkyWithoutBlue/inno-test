@@ -6,7 +6,6 @@ import KeyDirections from '../components/KeyDirections';
 import Advantages from '../components/Advantages';
 import Features from '../components/Features';
 import ProductGallery from '../components/ProductGallery';
-import ThreadedProducts from '../components/ThreadedProducts';
 import SpringVents from '../components/SpringVents';
 import ResearchDevelopment from '../components/ResearchDevelopment';
 import ProductionProcess from '../components/ProductionProcess';
@@ -111,7 +110,7 @@ const Home: NextPage = () => {
           <div className="w-full">
             {/* t-cover__wrapper */}
             <div
-              className="flex flex-col relative z-[1] pt-[120px] items-center"
+              className="flex flex-col relative z-[1] pt-[120px] items-center max-w-[1920px] mx-auto"
               style={{
                 height: windowWidth <= 430 ? '100vh' : windowWidth < 640 ? '80vh' : '929px',
                 paddingTop: windowWidth <= 320 ? '10px' :
@@ -305,13 +304,6 @@ const Home: NextPage = () => {
         <ProductGallery />
       </section>
 
-      <section id="threaded-products">
-        <ThreadedProducts />
-      </section>
-
-      <section id="spring-vents">
-        <SpringVents />
-      </section>
 
       <section id="research-development">
         <ResearchDevelopment />

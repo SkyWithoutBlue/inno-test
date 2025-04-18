@@ -2,9 +2,9 @@ import React from 'react';
 
 const HeroTitle: React.FC = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 relative">
+    <div className="w-full min-h-screen  flex flex-col items-center justify-center text-center px-4 relative">
       {/* Заголовок */}
-      <h1 className="text-3xl sm:text-4xl md:text-5xl break-all lg:text-6xl text-white font-normal mb-4 md:mb-6">
+      <h1 className="text-3xl sm:text-4xl  md:text-5xl break-all lg:text-6xl text-white font-normal mb-4 md:mb-6">
         INNO LINK LLC
       </h1>
 
